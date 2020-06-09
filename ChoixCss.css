@@ -1,0 +1,107 @@
+/* Général et fonts*/
+
+html{
+	font-family: 'Metal Mania', cursive;
+	font-size: 120%;
+}
+
+body { 
+	width:95%; 
+	margin:auto; 
+	font-size: 0.8em;  
+}
+
+/* Le header une image en tête*/
+
+header {
+	position: relative; 
+	width: 100%; 
+	height: 250px;
+}
+
+body { 
+	background-image:url(https://www.publicdomainpictures.net/pictures/270000/velka/old-barn-wood-background.jpg); 
+	background-position:center; background-attachment:fixed;
+}
+
+/* Les titres et chapitres*/
+h1 { 
+	text-align:center; 
+	font-size: 2em;
+	color: #ffffff; 
+	text-shadow:10px 10px 2px #000000;
+}
+
+h2 { 
+	position : center ; 
+	font-size: 7em; 
+	color: #ffffff; 
+	text-shadow : 10px 10px 2px #000000}
+
+/* Le menu positionné à gauche, largeur fixe*/
+
+
+
+#toto {
+	font-family: 'Metal Mania', cursive;
+	color : #ffffff;
+	text-shadow : 2px 2px 2px #000000;
+	font-style : Trattatello ;
+	font-size: 2em; float: left; 
+	font-weight: bold; 
+}
+
+#page2 {
+	font-family: 'Metal Mania', cursive;
+	color : #ffffff;
+	text-shadow : 2px 2px 2px #000000;
+	font-style : Trattatello ;
+	font-size: 2em; float: left; 
+	font-weight: bold; 
+}
+
+#toto a{
+	margin-top: 10px;
+	transition: transform .2s;
+	display:inline-block;
+	color : #ffffff;
+	background-color: #c68c53;
+	border-radius: 8px;
+	padding: 10px 16px;
+}
+
+#toto a:hover {
+  	transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#page2 a{
+	margin-top: 10px;
+	transition: transform .2s;
+	display:inline-block;
+	color : #ffffff;
+	background-color: #c68c53;
+	border-radius: 8px;
+	padding: 10px 16px;
+}
+
+#page2 a:hover {
+  	transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/* aside en position fixe à l'écran*/
+
+aside { 
+	position: fixed; 
+	top:0px ; 
+	right : 10px; 
+	width: 20%; 
+	background-image:url(https://i.pinimg.com/236x/ed/22/64/ed2264c70e109e7a54737cd7d8613777--paper-texture-old-paper.jpg); 
+	background-position:center;
+	text-align: justify; 
+ 	border-radius: 5px;  
+	padding: 10px;  
+	color: white;  
+	font-size: 1em; 
+}
+

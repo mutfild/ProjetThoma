@@ -1,0 +1,48 @@
+/* Général et fonts*/
+
+html{
+	font-family: 'Metal Mania', cursive;
+	font-size: 120%;
+}
+
+body { 
+	width:95%; 
+	margin:auto; 
+	font-size: 0.8em;  
+}
+
+/* Le header une image en tête*/
+
+header {
+	position: relative; 
+	width: 100%; 
+	height: 250px;
+}
+
+body { 
+	background-image:url(https://vignette.wikia.nocookie.net/falloutfanon/images/8/89/Barataria_Bay.jpg/revision/latest?cb=20150727172815); 
+	background-repeat: no-repeat;	
+	background-size: cover;
+	background-position:center; 
+	background-attachment:fixed;
+}
+
+/* Les titres et chapitres*/
+h1 { 
+	text-align:center; 
+	font-size: 2em;
+	color: #ffffff; 
+	text-shadow:2px 2px 2px #000000;
+}
+
+/* Le menu positionné à gauche, largeur fixe*/
+
+#page2 {
+	font-family: 'Metal Mania', cursive;
+	color : #ffffff;
+	text-shadow : 2px 2px 2px #000000;
+	font-style : Trattatello ;
+	font-size: 2em; float: left; 
+	font-weight: bold; 
+}
+
